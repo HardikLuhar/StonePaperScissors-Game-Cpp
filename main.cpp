@@ -49,15 +49,15 @@ public:
             }
             else if (PLAYER_THROW == ROCK && AI_THROW == SCISSORS)
             {
-                cout <<endl<< "Scissors beats rock! You won!" << endl;
-            }
-            else if (PLAYER_THROW == PAPER && AI_THROW == ROCK)
-            {
-                cout <<endl<< "Paper beats rock! You won!" << endl;
+                cout <<endl<< "Rock beats Scissors! You won!" << endl;
             }
             else if (PLAYER_THROW == SCISSORS && AI_THROW == ROCK)
             {
                 cout <<endl<< "Rock beats scissors! AI won!" << endl;
+            }
+            else if (PLAYER_THROW == PAPER && AI_THROW == ROCK)
+            {
+                cout <<endl<< "Paper beats rock! You won!" << endl;
             }
             else if (PLAYER_THROW == ROCK && AI_THROW == PAPER)
             {
@@ -81,7 +81,7 @@ int main()
 
     cout << "Welcome to Rock-Paper-Scissors!\n";
     cout << "In this game, you'll choose:\n";
-    cout << "1 for Rock\n";
+    cout << "1 for Stone\n";
     cout << "2 for Paper\n";
     cout << "3 for Scissors\n\n";
 
