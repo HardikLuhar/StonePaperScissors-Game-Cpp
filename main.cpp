@@ -81,7 +81,7 @@ int main()
 
     cout << "Welcome to Rock-Paper-Scissors!\n";
     cout << "In this game, you'll choose:\n";
-    cout << "1 for Stone\n";
+    cout << "1 for Rock\n";
     cout << "2 for Paper\n";
     cout << "3 for Scissors\n\n";
 
